@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 
     MainWindow w;
     w.move((QApplication::desktop()->width()), (QApplication::desktop()->height() - w.height()));
-    w.setFixedSize(250, 200);
+    w.setFixedSize(250, 250);
     w.show();
 
     QFile file(":/resources/style.qss");
