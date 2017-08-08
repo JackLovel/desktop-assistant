@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/close_normal.svg</file>
+        <file>resources/close_hover.svg</file>
+        <file>resources/close_pressed.svg</file>
+        <file>resources/style.qss</file>
+    </qresource>
+</RCC>
