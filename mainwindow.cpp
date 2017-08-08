@@ -32,6 +32,7 @@ void MainWindow::initUI()
     closeButton->setObjectName("CloseButton");
     closeButton->setFocusPolicy(Qt::NoFocus);
 
+    layout->setMargin(5);
     layout->addLayout(titleLayout);
     layout->addStretch();
 
