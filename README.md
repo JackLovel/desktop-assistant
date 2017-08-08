@@ -1,5 +1,4 @@
 # Desktop Assistant
--------
 
 ## Build dependencies
 
@@ -17,7 +16,6 @@
 * ./desktop-assistant
 
 ## License
--------
 
 ![](http://www.gnu.org/graphics/lgplv3-147x51.png)
 
