@@ -18,7 +18,7 @@ MainWindow::MainWindow(QWidget *parent)
     setCentralWidget(mainWidget);
 
     setWindowFlags(Qt::FramelessWindowHint | Qt::Tool);
-    setWindowOpacity(0.6);
+    setWindowOpacity(0.7);
 
     initUI();
 }
@@ -44,7 +44,7 @@ void MainWindow::initUI()
     connect(closeButton, &QPushButton::clicked, this, &QApplication::quit);
 
     QLabel *timeLabel = new QLabel();
-    timeLabel->setStyleSheet("QLabel { font-size: 25px; color: #FFFFFF; }");
+    timeLabel->setStyleSheet("QLabel { font-size: 25px; color: #FFFFFF;}");
 
     QLabel *timeLabel2 = new QLabel();
     timeLabel2->setStyleSheet("QLabel { font-size: 17px; color: #FFFFFF; }");
